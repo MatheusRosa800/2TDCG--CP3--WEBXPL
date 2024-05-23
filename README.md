@@ -15,4 +15,4 @@ Os mecanismos de modelo são projetados para gerar páginas da web combinando mo
 
 ### Print da Conta 
 * Envie um print da área de detalhes da conta após ter logado
-<img src="Imagens/conta.png">
+<img src="imagens/conta.png">
