@@ -90,3 +90,12 @@ __R: Ele foi escrito em RUBY__
 # Exercício 0x02 - Lab
 
 Link: https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic-code-context 
+
+## 01 - Uma captura de tela completa (exibindo o endereço do seu laboratório) com um comentário anônimo contendo seu primeiro nome e RM.
+
+## 02 - Uma captura de tela completa (exibindo o endereço do seu laboratório e seu payload) com prova de que você consegue realizar operações simples, tais como: somar ou multiplicar dois números ou multiplicar uma string.
+
+## 03 - Em qual linguagem o sistema de template está sendo executado?
+
+## 04 - Forneça evidência de que conseguiu completar o objetivo deste laboratório.
+
