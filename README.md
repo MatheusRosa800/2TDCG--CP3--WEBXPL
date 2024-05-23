@@ -9,3 +9,4 @@ Checkpoint realizado com o intuito de colocar em prática todos os conhecimentos
 
 ## Vulnerabilidade
 
+<img src="Imagens/Imagem1.png">
