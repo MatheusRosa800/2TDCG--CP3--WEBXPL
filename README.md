@@ -17,7 +17,7 @@ Os mecanismos de modelo são projetados para gerar páginas da web combinando mo
 * Envie um print da área de detalhes da conta após ter logado
 <img src="imagens/Imagem1.png">
 
-# Exercício 01 - Lab
+# Exercício 0x01 - Lab
 
 Link: https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic  
 
@@ -86,3 +86,7 @@ Comando Utilizado:
 __R: Ele foi escrito em RUBY__
 
 <img src="imagens/Imagem8.png">
+
+# Exercício 0x02 - Lab
+
+Link: https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic-code-context 
