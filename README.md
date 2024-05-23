@@ -17,4 +17,6 @@ Os mecanismos de modelo são projetados para gerar páginas da web combinando mo
 * Envie um print da área de detalhes da conta após ter logado
 <img src="imagens/conta.png">
 
-## Exercício 01 - https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic  
+## Exercício 01 - Lab
+
+Link: https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic  
