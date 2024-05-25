@@ -93,7 +93,11 @@ Link: https://portswigger.net/web-security/server-side-template-injection/exploi
 
 ## 01 - Uma captura de tela completa (exibindo o endereço do seu laboratório) com um comentário anônimo contendo seu primeiro nome e RM.
 
+<img src="imagens/Imagem9.png">
+
 ## 02 - Uma captura de tela completa (exibindo o endereço do seu laboratório e seu payload) com prova de que você consegue realizar operações simples, tais como: somar ou multiplicar dois números ou multiplicar uma string.
+
+
 
 ## 03 - Em qual linguagem o sistema de template está sendo executado?
 
