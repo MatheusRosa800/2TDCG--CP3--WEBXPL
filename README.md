@@ -108,3 +108,20 @@ __R: o sistema template Tornado esta sendo executado em python__
 
 <img src="imagens/Imagem12.png">
 <img src="imagens/Imagem13.png">
+
+# Extra
+
+Entrando na aplicação temos isso:
+<img src="imagens/Imagem14.png">
+
+Primeiramente testei os tipos de payload para ver qual era aceito pelo servidor. 
+````
+{{7*7}} 
+${7*7} 
+<%= 7*7 %> 
+${{7*7}}
+#{7*7} 
+````
+Colocando na caixa de entrada, é possível ver que alguns são lidos e outros não.
+<img src="imagens/Imagem15.png">
+
