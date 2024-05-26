@@ -107,3 +107,4 @@ __R: o sistema template Tornado esta sendo executado em python__
 ## 04 - Forneça evidência de que conseguiu completar o objetivo deste laboratório.
 
 <img src="imagens/Imagem12.png">
+<img src="imagens/Imagem13.png">
