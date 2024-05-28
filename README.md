@@ -102,7 +102,7 @@ Link: https://portswigger.net/web-security/server-side-template-injection/exploi
 
 ## 03 - Em qual linguagem o sistema de template está sendo executado?
 
-__R: o sistema template Tornado esta sendo executado em python__
+__R: O sistema template Tornado esta sendo executado em python__
 
 ## 04 - Forneça evidência de que conseguiu completar o objetivo deste laboratório.
 
