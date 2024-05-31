@@ -36,7 +36,7 @@ Comando Utilizado:
 <%= system('md5sum morale.txt') %>
 ```
 
-<img src="imagens/Imagem4.png">
+<img src="imagens/Imagem19.png">
 
 ## 04 - Responda qual o tipo de arquivo é o morale.txt.
 
@@ -56,7 +56,7 @@ __R: Para transferir o arquivo do servidor para a minha maquina local eu utiliza
 ### Prints
 
 - md5sum
-  <img src="imagens/Imagem4.png">
+  <img src="imagens/Imagem19.png">
   <img src="imagens/Imagem16.png">
   
 - file
