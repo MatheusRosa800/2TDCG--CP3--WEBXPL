@@ -15,7 +15,6 @@ Os mecanismos de modelo são projetados para gerar páginas da web combinando mo
 
 ## Print da Conta 
 * Envie um print da área de detalhes da conta após ter logado
-<img src="imagens/Imagem1.png">
 
 # Exercício 0x01 - Lab
 
@@ -88,8 +87,6 @@ __R: Ele foi escrito em RUBY__
 Link: https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic-code-context 
 
 ## 01 - Uma captura de tela completa (exibindo o endereço do seu laboratório) com um comentário anônimo contendo seu primeiro nome e RM.
-
-<img src="imagens/Imagem9.png">
 
 ## 02 - Uma captura de tela completa (exibindo o endereço do seu laboratório e seu payload) com prova de que você consegue realizar operações simples, tais como: somar ou multiplicar dois números ou multiplicar uma string.
 
